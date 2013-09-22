@@ -1,8 +1,6 @@
-markdown: rdiscount
+markdown: redcarpet
 pygments: true
 permalink: /posts/:title
-rdiscount:
-  extensions: [smart]
 
 name: Corey Haines
 url: http://articles.coreyhaines.com

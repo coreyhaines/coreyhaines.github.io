@@ -8,14 +8,14 @@ The other day, I was working on some list-processing code. The system was serial
 
 ## Processing a list
 Suppose I'm writing a system that manages items and actions on those items. We might have a class called Command. Each of these commands represents one of four types of actions: Update, Create, Contract or Expand.
-```ruby
-  class Command
-    attr_accessor :type
-    def to_json
-      #generate json here
-    end
+{% highlight ruby %}
+class Command
+  attr_accessor :type
+  def to_json
+    #generate json here
   end
-```
+end
+{% endhighlight %}
 In my program, I get an unfiltered list of these that I need to send to another system. I could send them individually, but I want to instead batch them up into a single message.
 
 ### Only interested in a subset
@@ -24,14 +24,14 @@ But, the other system isn't interested in all the types of commands, just Updati
 ### Filtering with "next if *condition*" statements
 
 This is a very common problem that comes up in code, and there are different ways to solve it. In this situation, the programmers chose to use the following construct, iterating with Enumerable#each and guarding against the undesired commands with a set of "next if *condition*" statements.
-```ruby
+{% highlight ruby %}
 # the json variable is defined higher up as a json builder object
 commands.each do |command|
   next if command.type == "expand"
   next if command.type == "contract"
   json << command.to_json
 end
-```
+{% endhighlight %}
 
 ### My Reaction: Ugh! Should use #select then #each
 
@@ -54,32 +54,32 @@ In order to compare them, it helps to characterize the two patterns. Is there a 
 ### A common pattern
 
 The first form, iterating over a list, doing all the work in the loop body, is fairly common. In the case above, for example, the filtering/processing were inter-mingled in the same clause. As a reminder, this is what it looks like.
-```ruby
+{% highlight ruby %}
 commands.each do |command|
   next if command.type == "delete"
   next if command.type == "transfer"
   json << command.to_json
 end
-```
+{% endhighlight %}
 
 ### Used to be the main technique
 
 Back before most languages adopted iterator-style syntax, we all did our loops with a for statement: doing explicit iteration over a list, embedding our guard clauses into the block, itself.
-```javascript
+{% highlight javascript %}
 for(int i = 0; i < commands.count; i++) {
   if(command[i].type === 'update') {
     // Process this command
   }
 }
-```
+{% endhighlight %}
 or, perhaps your language supported an index-free form
-```ruby
+{% highlight ruby %}
 for command in commands
   if(command.type == 'update')
     # Process this command
   end
 end
-```
+{% endhighlight %}
 
 ### Enumerable#each becomes "the thing to use" 
 
@@ -111,34 +111,34 @@ One technique I use when looking at a process that includes an "and" is to see i
 Splitting the different tasks into separate parts allows us to think in terms of the individual responsibilities. For example, what is the result of filtering? What is the task that is being done on each element?
 
 This could look like the following bit of code.
-```ruby
+{% highlight ruby %}
 commands.select do |command|
   ["create", "update"].include? command.type
 end.each do |command|
   json << command.to_json
 end
-```
+{% endhighlight %}
 or, if it makes more sense to talk about what *isn't* included
-```ruby
+{% highlight ruby %}
 commands.reject do |command|
   ["delete", "transfer"].include? command.type
 end.each do |command|
   json << command.to_json
 end
-```
+{% endhighlight %}
 
 #Splitting allows you to name the pieces
 By decomposing purposefully into a filter/process step, you can improve the readability of the code.
 
 ##What is the actual list being processed?
 In our example, when we separate out the filter step from the processing step, we also give ourselves a way to better reveal the goal, explicitly naming our list to process.
-```ruby
+{% highlight ruby %}
 def creation_based_commands
   self.commands.select { |command| ["create", "update"].include? command.type }
 end
 
 creation_based_commands.each { |command| json << command.to_json } 
-```
+{% endhighlight %}
 This isn't always needed, but it is worth thinking about the person who is going to come to this codebase later to make a change. In general, the more explicit we are, the better.
 
 ##Revealing intention is one of the 4 rules of simple design
@@ -146,14 +146,14 @@ After all, "Reveals Intent" is one of the [4 Rules of Simple Design](http://c2.c
 
 ###Iterating over a list, filtering - have to think about what the filter is for
 When you come to code that looks like this.
-```ruby
+{% highlight ruby %}
 # the json variable is defined higher up as a json builder object
 commands.each do |command|
   next if command.type == "delete"
   next if command.type == "transfer"
   json << command.to_json
 end
-```
+{% endhighlight %}
 You have to spend some time thinking "why aren't these included?" "Are there others?" or "Should I add my new type to this list?"
 
 ###Iterating over a filtered list - provide opportunity to explicitly name the concept that the filtered list represents
@@ -161,23 +161,23 @@ This focus can also be used to effectively put a name on the filter. By separati
 
 #Could just combine all the "next if" values into an array and use a single INTERESTING_TYPES.include?(command.type)
 Is splitting into a filter/process flow the only one? Surely we could just encapsulate the name of the types into an array and use that.
-```ruby
+{% highlight ruby %}
 # the json variable is defined higher up as a json builder object
 commands.each do |command|
   next unless CREATION_TYPES.include?(command.type)
   json << command.to_json
 end
-```
+{% endhighlight %}
 
 ##This works okay for simple cases, but still suffers from some of the issues outlined above
 This can be tempting. And, as an initial step, it isn't too bad. This works reasonable well for simple cases like this, but starts to degrade a bit when we have more complex logic. That complex logic could be encapsulated in a method.
-```ruby
+{% highlight ruby %}
 # the json variable is defined higher up as a json builder object
 commands.each do |command|
   next unless creation_command?(command)
   json << command.to_json
 end
-```
+{% endhighlight %}
 By doing this, we've extracted the logic for the filtering to another place. At this point, though, we are just a simple step away from a full decoupling. Should we take the last step?
 
 ##Inhibiting change

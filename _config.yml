@@ -1,0 +1,5 @@
+name: Corey's Ramblings
+markdown: redcarpet
+safe: true
+lsi: false
+pygments: true

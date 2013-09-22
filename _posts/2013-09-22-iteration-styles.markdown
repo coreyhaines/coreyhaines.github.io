@@ -1,9 +1,8 @@
 ---
 layout: post
-title: "Iterating over a list and filtering" OR "Iterating over a filtered List"
+title: |
+  "Iterating over a list and filtering" OR "Iterating over a filtered List"
 ---
-
-# "Iterating over a list and filtering" OR "Iterating over a filtered List"
 ## Noticing a pattern
 The other day, I was working on some list-processing code. The system was serializing a set of commands to send to another server for further execution. Only a subset of the commands needed to be sent, so each serialization routine was responsible for filtering it's child objects. I noticed an interesting pattern around the filtering, and I started thinking.
 

@@ -187,14 +187,10 @@ One argument for taking the last decoupling step is that it will make the code e
 
 When decomposing a complex process into steps like this, I think in terms of Filter/Transform/Reduce/Use.
 
-* Filter
-Generate a subset of a list, based on a certain quality of each item.
-* Transform
-Generate a new list consisting of elements based on their respective original element.
-* Reduce
-Collapse a list into a single element.
-* Use
-Act in some fashion on each element of a list, generally resulting in a side-effect.
+* Filter - Generate a subset of a list, based on a certain quality of each item.
+* Transform - Generate a new list consisting of elements based on their respective original element.
+* Reduce - Collapse a list into a single element.
+* Use - Act in some fashion on each element of a list, generally resulting in a side-effect.
 
 Decomposing a process into these is really a matter of building a composition-based pipeline for the data you are processing.
 

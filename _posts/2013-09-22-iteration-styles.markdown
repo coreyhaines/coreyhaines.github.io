@@ -141,7 +141,6 @@ creation_based_commands.each { |command| json << command.to_json }
 {% endhighlight %}
 This isn't always needed, but it is worth thinking about the person who is going to come to this codebase later to make a change. In general, the more explicit we are, the better.
 
-### Revealing intention is one of the 4 rules of simple design
 After all, "Reveals Intent" is one of the [4 Rules of Simple Design](http://c2.com/cgi/wiki?XpSimplicityRules).
 
 ##Iterating over a list, filtering - have to think about what the filter is for

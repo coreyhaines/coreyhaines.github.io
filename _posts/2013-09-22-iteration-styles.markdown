@@ -127,10 +127,10 @@ end.each do |command|
 end
 {% endhighlight %}
 
-#Splitting allows you to name the pieces
+## Splitting allows you to name the pieces
 By decomposing purposefully into a filter/process step, you can improve the readability of the code.
 
-##What is the actual list being processed?
+### What is the actual list being processed?
 In our example, when we separate out the filter step from the processing step, we also give ourselves a way to better reveal the goal, explicitly naming our list to process.
 {% highlight ruby %}
 def creation_based_commands
@@ -141,10 +141,10 @@ creation_based_commands.each { |command| json << command.to_json }
 {% endhighlight %}
 This isn't always needed, but it is worth thinking about the person who is going to come to this codebase later to make a change. In general, the more explicit we are, the better.
 
-##Revealing intention is one of the 4 rules of simple design
+### Revealing intention is one of the 4 rules of simple design
 After all, "Reveals Intent" is one of the [4 Rules of Simple Design](http://c2.com/cgi/wiki?XpSimplicityRules).
 
-###Iterating over a list, filtering - have to think about what the filter is for
+##Iterating over a list, filtering - have to think about what the filter is for
 When you come to code that looks like this.
 {% highlight ruby %}
 # the json variable is defined higher up as a json builder object
@@ -156,10 +156,10 @@ end
 {% endhighlight %}
 You have to spend some time thinking "why aren't these included?" "Are there others?" or "Should I add my new type to this list?"
 
-###Iterating over a filtered list - provide opportunity to explicitly name the concept that the filtered list represents
+## Iterating over a filtered list - provide opportunity to explicitly name the concept that the filtered list represents
 This focus can also be used to effectively put a name on the filter. By separating the filtering into a first-class part of your processing, you can more clearly communicate the intent.
 
-#Could just combine all the "next if" values into an array and use a single INTERESTING_TYPES.include?(command.type)
+## Could just combine all the "next if" values into an array
 Is splitting into a filter/process flow the only one? Surely we could just encapsulate the name of the types into an array and use that.
 {% highlight ruby %}
 # the json variable is defined higher up as a json builder object
@@ -169,7 +169,7 @@ commands.each do |command|
 end
 {% endhighlight %}
 
-##This works okay for simple cases, but still suffers from some of the issues outlined above
+### This works okay for simple cases, but still suffers from some of the issues outlined above
 This can be tempting. And, as an initial step, it isn't too bad. This works reasonable well for simple cases like this, but starts to degrade a bit when we have more complex logic. That complex logic could be encapsulated in a method.
 {% highlight ruby %}
 # the json variable is defined higher up as a json builder object
@@ -183,8 +183,8 @@ By doing this, we've extracted the logic for the filtering to another place. At 
 ##Inhibiting change
 One argument for taking the last decoupling step is that it will make the code easier to change in the future. Paying attention to the Single Responsibility Principle (SRP) at this low level can often pay off when we come back to the code. We'll talk about that in a later section on analying the code based on SRP and the Open-Closed Principle to this code.
 
-#Theory Talk
-##Filtering/Transforming/Using
+##Theory Talk
+###Filtering/Transforming/Using
 
 When decomposing a complex process into steps like this, I think in terms of Filter/Transform/Reduce/Use.
 
@@ -199,64 +199,53 @@ Act in some fashion on each element of a list, generally resulting in a side-eff
 
 Decomposing a process into these is really a matter of building a composition-based pipeline for the data you are processing.
 
-##Data pipelining
+###Data pipelining
 
 Data pipelining is a method for focusing on the workflow and transformations that a set of data undergoes when processing.
 
-##Each technique has a focus and point
+###Each technique has a focus and point
 
 A major benefit of pipelining in this fashion is that each step has a strong focus and point. While the final composition might have complex behavior, the individual parts are easily understood as a step in the final process. Having small, focused parts help in maintaining code, moving us closer to the SOLID principles.
 
-##SRP
+###SRP
 
-###Each clause should have a single reason to change
+####Each clause should have a single reason to change
 
-For example, when decomposed properly, each step can be looked at as abiding by the Single Responsibility Principle. That is, each step has a single reason to change.
+For example, when decomposed properly, each step can be looked at as abiding by the Single Responsibility Principle. That is, each step has a single reason to change. If the filtering needs to change, it can be altered independently of the future processing. Any transformation or processing of the filtered set can be very explicit and focused on what needs to be done.
 
-####Filtering filters a single thing
+###OCP
 
-If the filtering needs to change, it can be altered independently of the future processing. 
-
-####Transforming maps domain to domain
-
-Any transformation or processing of the filtered set can be very explicit and focused on what needs to be done.
-
-##OCP
-
-###Enhancements can often be made by adding clauses, rather than changing existing ones
+####Enhancements can often be made by adding clauses, rather than changing existing ones
 
 Just like effective object decomposition, breaking into small, focused clauses can help gain the benefits of the Open-Closed Principle. If you need to alter the workflow, you can often do this by adding clauses, rather than changing existing ones.
 
-##Unix mentality
+### Unix mentality
 
-###Pipelining through single, fit-for-purpose utilities
+#### Pipelining through single, fit-for-purpose utilities
 
 Data pipelining of this fashion isn't really a new or ground-breaking idea. Most of us spend time on the unix command-line, where a world of small, focused utilities is an environment we live in. Think of all the wonderfully complex actions that can be done by just stringing simple steps together. For example, here's a script to calculate the [churn in files in your git repository](https://github.com/garybernhardt/dotfiles/blob/master/bin/git-churn).
 
-#Concerns
+##Concerns
 
-##Iterating multiple times over list
+###Iterating multiple times over list
 One of the major push backs on this style of list processing is the idea that you are then iterating multiple times over the same list. If you have N items, then you feasibly could be looping M#N times, where M is the number of steps in your process.
 
-###Generally not a concern, readability/intentionality trumps
 My first response is that this rarely is an issue that will affect you. In general, readability and maintainability trump this level of optimization.
 
-###When becomes a concern, can use lazy iteration
 Now, if your lists get to the size where this does cause problems, you can always look at lazy iterators. These chain the iterator, itself, rather than a primitive data structure, such as an Array. Some languages do this by default, and Ruby 2.0 has [added them to the standard library](http://ruby-doc.org/core-2.0.0/Enumerable.html#method-i-lazy).
 
-##Difficulty in understanding / tracking process
+###Difficulty in understanding / tracking process
 Another common complaint is that separating these steps out can deter understanding/comprehension of what is going on and what the final result should be.
 
-###Often a complaint against object decomposition
 Of course, this is a common complaint against object decomposition, as well. As I like to say, "I've not really seen too many classes, but I've seen a lot of crappy abstractions." I think that sentiment comes into play in the situation here, as well. When decomposing a series of steps, it can be important to think about the flow of the data in understandable, readable steps.
 
-#Can be easier to debug
+## Benefit - Can be easier to debug
 When separating a process into small, composable pieces, we often find the system is much easier to debug. Each step can be run individually to verify that it is doing its job correctly.
 
-##Composition can be tested at different levels
+###Composition can be tested at different levels
 If we have a problem with the fully-composed pipeline, we can more easily debug it by separating out different levels of composition to see that the data is processed correctly each step of the way.
 
-##Examples for each piece can provide clarity
+###Examples for each piece can provide clarity
 Each individual piece can be tested in isolation. Not just testing for verification, though, but also for clarity. The set of examples we write while isolation testing can give valuable feedback on the purpose of the unit.
 
 

@@ -4,7 +4,7 @@ title: |
   "Iterating over a list and filtering" OR "Iterating over a filtered list"
 ---
 ## Noticing a pattern
-The other day, I was working on some list-processing code. The system was serializing a set of commands to send to another server for further execution. Only a subset of the commands needed to be sent, so each serialization routine was responsible for filtering it's child objects. I noticed an interesting pattern around the filtering, and I started thinking.
+The other day, I was working on some list-processing code. The system was serializing a set of commands to send to another server for further execution. Only a subset of the commands needed to be sent, so each serialization routine was responsible for filtering its child objects. I noticed an interesting pattern around the filtering, and I started thinking.
 
 ## Processing a list
 Suppose I'm writing a system that manages items and actions on those items. We might have a class called Command. Each of these commands represents one of four types of actions: Update, Create, Contract or Expand.

@@ -259,9 +259,4 @@ If we have a problem with the fully-composed pipeline, we can more easily debug 
 ##Examples for each piece can provide clarity
 Each individual piece can be tested in isolation. Not just testing for verification, though, but also for clarity. The set of examples we write while isolation testing can give valuable feedback on the purpose of the unit.
 
-#Resources
-If you are interested in more information around this, here are some resources.
-##Talk by Feathers
-##Baruco talk by David Chelimsky
-##Marick's book
 

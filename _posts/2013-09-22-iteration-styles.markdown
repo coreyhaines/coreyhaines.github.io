@@ -180,7 +180,7 @@ end
 By doing this, we've extracted the logic for the filtering to another place. At this point, though, we are just a simple step away from a full decoupling. Should we take the last step?
 
 ##Inhibiting change
-One argument for taking the last decoupling step is that it will make the code easier to change in the future. Paying attention to the Single Responsibility Principle (SRP) at this low level can often pay off when we come back to the code. We'll talk about that in a later section on analying the code based on SRP and the Open-Closed Principle to this code.
+One argument for taking the last decoupling step is that it will make the code easier to change in the future. Paying attention to the Single Responsibility Principle (SRP) at this low level can often pay off when we come back to the code. We'll talk about that in a later section on analyzing the code based on SRP and the Open-Closed Principle to this code.
 
 ##Theory Talk
 ###Filtering/Transforming/Using

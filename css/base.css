@@ -7,6 +7,16 @@ body {
 a {
   color: #227ce8; }
 
+.content table thead th {
+  border-bottom: 1px solid gray;
+}
+.content table td {
+  padding: 0px 10px;
+}
+.content table {
+  margin-bottom: 10px;
+}
+
 .sidebar {
   position: fixed;
   left: 15px;

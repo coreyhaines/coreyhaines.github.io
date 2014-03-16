@@ -20,7 +20,7 @@ There are two basic forms of ping-pong, but they both share on very important as
 The first style of ping-pong is where one member takes on the role of test writer, and the other takes on the role of getting the tests to pass. I like to call the test writer the **"test redder"** and the one getting them to pass the **"test greener"**. The table below illustrates the flow of control.
 
 | member 1   | member 2        |
-|------------------------------|
+| ---------- | --------------- |
 | write test |                 |
 |            | make test green |
 | write test |                 |
@@ -29,7 +29,7 @@ The first style of ping-pong is where one member takes on the role of test write
 The second style of ping-pong is where the role of "test redder" passes between participants. This is done by having the first member write a test, then control is passed to the other member. That person gets the test to pass, to turn green, then they are immediately responsible for writing the next test. The table below illustrates the flow of writing.
 
 | member 1        | member 2        |
-|-----------------------------------|
+|-----------------|-----------------|
 | write test      |                 |
 |                 | make test green |
 |                 | write next test |

@@ -3,6 +3,12 @@ layout: post
 title: Some thoughts on pair-programming styles
 ---
 
+Over the past 10 years of practicing extreme programming, I've done a lot of pairing; I've worked in traditional pairing styles, and I've written code with someone in less-traditional places. I've worked with people who have been pairing much longer than I have, and other who had never written code like this before.
+
+And over the past 5 years of facilitating coderetreat workshops, I've watched a lot of people in different pair-programming situations. I've watched people who have never written code with someone else, and I've looked over the shoulders of people who have been writing code in pairs for years.
+
+All of this time spent both doing and watching has given me some thoughts around the technique. So, I thought I would write down some observations and thoughts I've developed over the years regarding pair-programming, specifically around a couple different styles.
+
 ## Driver-Navigator
 
 Traditionally, pair-programming has been introduced via the [Driver-Navigator](http://guide.agilealliance.org/guide/pairing.html) form. In this form, one member, The Driver, has the keyboard and control of the input. Their job is to type and focus on the minute-to-minute coding. The other member is The Navigator. Their job is to pay attention to the code being written, but keep the larger picture in mind, guiding the driver in the right direction. Frequently, the roles should be swapped.

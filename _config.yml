@@ -9,6 +9,7 @@ redcarpet:
 name: Corey Haines
 url: http://articles.coreyhaines.com
 description: Corey's Ramblings
-twitter: coreyhaines
-github: coreyhaines
+usernames:
+  twitter: coreyhaines
+  github: coreyhaines
 gravatar_url: http://www.gravatar.com/avatar/3d7807bb66e1a0c68c73ab2daaa77d8f

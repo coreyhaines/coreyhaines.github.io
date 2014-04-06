@@ -7,7 +7,7 @@ title: Understanding the 4 Rules of Simple Design - My Book
 <iframe width="160" height="400" src="https://leanpub.com/4rulesofsimpledesign/embed" frameborder="0" allowtransparency="true" ></iframe>
 </section>
 
-So, I wrote a book called *[Understanding the 4 Rules of Simple Design](https://leanpub.com/4rulesofsimpledesign)*! Huzzah! It has been a long time coming, for sure. Here's a bit more information about it, as well as some feedback from readers.
+So, I wrote a book called *[Understanding the 4 Rules of Simple Design](https://leanpub.com/4rulesofsimpledesign)*! Huzzah! It has been a long time coming, for sure. Here's a bit more information about it, as well as some feedback from readers. I've also created a [free downloadable sample](http://samples.leanpub.com/4rulesofsimpledesign-sample.pdf) to get a taste of it.
 
 The only thing we truly know about the act of building software is that we are going to be faced with change. It is inevitable. As we gain more knowledge about our domain and our use cases, we will have to change our software. This book is about how to survive in the face of this fact.
 

@@ -15,7 +15,11 @@ At coderetreat workshops, we focus on practicing fundamental software developmen
 
 In *[Understanding the 4 Rules of Simple Design](https://leanpub.com/4rulesofsimpledesign)*, we look at small, focused examples of applying these rules. While the backdrop is Conway's Game of Life (the domain used at coderetreat workshops), you won't need any background in it. Never been to a coderetreat? That isn't a problem either, I don't make any assumptions that you have.
 
-On the fence? Check out some of the early feedback from the book, including a longer-form [review of *Understanding the 4 Rules of Simple Design*](http://www.devjoy.com/2014/04/understanding-the-four-rules-of-simple-design/) by Richard Dalton.
+On the fence? Check out some of the early feedback from the book. 
+
+Here's a longer-form [review of *Understanding the 4 Rules of Simple Design*](http://www.devjoy.com/2014/04/understanding-the-four-rules-of-simple-design/) by Richard Dalton.
+
+After reading the book, Ian Whitney wrote a post about experimenting with the idea of [using declarative builder methods instead of the default initializer](http://programming.ianwhitney.com/blog/2014/04/13/4-simple-rules-and-declarative-builders/).
 
 <blockquote class="twitter-tweet" lang="en"><p>The backdrop &amp; common example of Conway&#39;s Game of Life extends perfectly from code retreat to book in <a href="https://t.co/nYdv26LBNp">https://t.co/nYdv26LBNp</a></p>&mdash; Chad Fowler (@chadfowler) <a href="https://twitter.com/chadfowler/statuses/450758751889272832">March 31, 2014</a></blockquote>
 

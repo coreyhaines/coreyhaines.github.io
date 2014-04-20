@@ -19,6 +19,8 @@ In *[Understanding the 4 Rules of Simple Design](https://leanpub.com/4rulesofsim
 
 On the fence? Check out some of the early feedback from the book. 
 
+Bart Bakker wrote a [great review with personal thoughts on it](http://blog.thesoftwarecraft.com/2014/04/book-review-understanding-4-rules-of.html).
+
 Richard Dalton wrote a nice [review of *Understanding the 4 Rules of Simple Design*](http://www.devjoy.com/2014/04/understanding-the-four-rules-of-simple-design/).
 
 Ian Whitney, after reading the book, wrote a post about experimenting with the idea of [using declarative builder methods instead of the default initializer](http://programming.ianwhitney.com/blog/2014/04/13/4-simple-rules-and-declarative-builders/).

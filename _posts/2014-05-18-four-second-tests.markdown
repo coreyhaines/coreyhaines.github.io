@@ -57,7 +57,7 @@ The four-second test run is obviously okay for some people, but I prefer to keep
 The original code for this can be seen at <a href="https://github.com/coreyhaines/bawch">my video series' repository</a>.
 
 
-Thanks to Cory Foy for proof-reading this post.
+Thanks to <a href="https://twitter.com/cory_foy">Cory Foy</a> for proof-reading this post.
 
 
 

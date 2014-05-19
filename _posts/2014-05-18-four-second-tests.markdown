@@ -23,6 +23,7 @@ I pulled down an application I've worked on and decided to run my tests.
 </aside>
 
 To show 4 seconds, I had to alter my tests to add a sleep to increase the time for the tests (this is why there is a pause at the end). Here is what 4 seconds looks like.
+
 <iframe width="420" height="315" src="//www.youtube.com/embed/rQOsJEzxuZo" frameborder="0" allowfullscreen></iframe>
 
 For me, this pause is too much, especially when running it frequently. For every change I make, I like to run the tests to make sure I haven't broken any previous functionality. Waiting 4 seconds each time, with this sort of pause, can be frustrating. DHH seems to imply that this speed is plenty fast as a trade-off for the increased complexity any sort of isolation brings. Let's see if we can do better.

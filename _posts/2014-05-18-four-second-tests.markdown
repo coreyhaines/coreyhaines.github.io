@@ -15,7 +15,7 @@ When people ask me how fast their test suite should be, my general answer is "fa
 
 One way to achieve the "Fast" requirement is by using certain isolation techniques. In Rails, the greatest way to achieve a first level of isolation is simply by removing the dependency your domain logic has on the underlying Rails framework. There are many benefits of isolation, but I want to talk about the obvious benefit of a major side-effect, fast tests: your workflow isn't interrupted.
 
-In DHH's post, Slow Database Test Fallacy, he talks proudly about their use of the spring application loader and how that allows him to run a specific model's tests in "just under 4 seconds from start to finish." He then follows up with the statement "Plenty fast for a great feedback cycle!" This definitely seems like a reasonable perspective. But is it? Whenever I hear claims about time and its effects, I like to do what I call the *Yellow Submarine Test*: see the time and see exactly how it feels.
+In DHH's post, <a href="http://david.heinemeierhansson.com/2014/slow-database-test-fallacy.html">Slow Database Test Fallacy</a>, he talks proudly about their use of the spring application loader and how that allows him to run a specific model's tests in "just under 4 seconds from start to finish." He then follows up with the statement "Plenty fast for a great feedback cycle!" This definitely seems like a reasonable perspective. But is it? Whenever I hear claims about time and its effects, I like to do what I call the *Yellow Submarine Test*: see the time and see exactly how it feels.
 
 I pulled down an application I've worked on and decided to run my tests.
 <aside class='callout highlight'>

@@ -7,9 +7,9 @@ title: Four-Second Test Runs
 
 When I talk to people about a test suite, I often say that they should satisfy the 3 F's:
 
-* *Fast* - They should be fast as possible to minimize the amount of time to get your feedback.
-* *Focused* - They should be focused and provide you with specific, immediate details on where the failure is.
-* *Full* - They should fully cover your system.
+* **Fast** - They should be fast as possible to minimize the amount of time to get your feedback.
+* **Focused** - They should be focused and provide you with specific, immediate details on where the failure is.
+* **Full** - They should fully cover your system.
 
 When people ask me how fast their test suite should be, my general answer is "faster." Whether you do TDD, test-first, test-while or test-after, being able to change your code and quickly see whether you've broken anything is very important from a workflow perspective. Whenever you have to sit and wait to find out the results of your change, your flow is broken.
 

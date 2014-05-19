@@ -41,7 +41,7 @@ By doing very small changes to my design, though, I can improve this. When writi
 <aside class='callout highlight'>
 *Reminder* this is about half a second slower because Quicktime adds that when doing recording on my laptop.
 </aside>
-By emphasizing the separation of concerns between my business logic and the underlying persistence-layer or whole web framework, I can achieve a much nicer flow, a pretty good feedback cycle.
+By emphasizing the separation of concerns between my business logic and the underlying persistence-layer or whole web framework, I can keep myself much more in flow with even faster feedback cycles that don't make me feel like I'm waiting.
 
 
 Whether you write your tests first or your tests last, the feedback time is important. Let's look again at the "Plenty fast for a great feedback cycle!" run.
@@ -57,7 +57,7 @@ The four-second test run is obviously okay for some people, but I prefer to keep
 The original code for this can be seen at <a href="https://github.com/coreyhaines/bawch">my video series' repository</a>.
 
 
-
+Thanks to Cory Foy for proof-reading this post.
 
 
 

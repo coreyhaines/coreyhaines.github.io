@@ -26,7 +26,7 @@ To show 4 seconds, I had to alter my tests to add a sleep to increase the time f
 
 <iframe width="420" height="315" src="//www.youtube.com/embed/rQOsJEzxuZo" frameborder="0" allowfullscreen></iframe>
 
-For me, this pause is too much, especially when running it frequently. For every change I make, I like to run the tests to make sure I haven't broken any previous functionality. Waiting 4 seconds each time, with this sort of pause, can be frustrating. DHH seems to imply that this speed is plenty fast as a trade-off for the increased complexity any sort of isolation brings. Let's see if we can do better.
+For me, this pause is too much, especially when running it frequently. For every change I make, I like to run the tests to make sure I haven't broken any previous functionality. Waiting 4 seconds each time, with this sort of pause, can be frustrating. However, some people may be concerned that the techniques for speeding this up would add complexity to the code base that would negate any speed gains we'd get. Let's see if we can get faster without adding complexity to the codebase.
 
 Let's take a look at using my very simple <a href="/posts/active-record-spec-helper/">"only load active record" technique</a>, which doesn't require any changes to your design, and, thus, no added complexity. In fact, it can help minimize complexity by highlighting unnecessary or too many dependencies.
 

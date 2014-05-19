@@ -28,17 +28,17 @@ Now, here is my actual timing using a very simple <a href="/posts/active-record-
 <iframe width="420" height="315" src="//www.youtube.com/embed/00OSP-5LrVs" frameborder="0" allowfullscreen></iframe>
 
 Now, even the 2 or 2.5 second run is quite a pause. When working in a good flow that includes writing unit tests, it can definitely pull me out of my workflow. When writing my domain code, the business logic, I find that a lot of the code doesn't actually need to load up my database. By writing my domain logic in pure Ruby, without a dependency on the Rails framework, the flow looks something like this.
-<iframe width="420" height="315" src="//www.youtube.com/embed/HxDoJQ7301Y" frameborder="0" allowfullscreen></iframe>
+<iframe width="420" height="315" src="//www.youtube.com/embed/vV0GEE7pd1g" frameborder="0" allowfullscreen></iframe>
 
 <aside class='callout highlight'>
-*Reminder* this is even a bit slower because Quicktime adds a bit when doing recording on my laptop.
+*Reminder* this is about half a second slower because Quicktime adds that when doing recording on my laptop.
 </aside>
 
 Whether you write your tests first or your tests last, the feedback time is important. Let's look again at the "Plenty fast for a great feedback cycle!" run.
 <iframe width="420" height="315" src="//www.youtube.com/embed/rQOsJEzxuZo" frameborder="0" allowfullscreen></iframe>
 
 Now let's look again at the feedback cycle I have when I am working on business logic.
-<iframe width="420" height="315" src="//www.youtube.com/embed/HxDoJQ7301Y" frameborder="0" allowfullscreen></iframe>
+<iframe width="420" height="315" src="//www.youtube.com/embed/vV0GEE7pd1g" frameborder="0" allowfullscreen></iframe>
 
 The four-second test run is obviously okay for some people, but I prefer to keep my flow uninterrupted and my feedback loop very small. As with everything, the choice is yours and highly dependent on your style.
 

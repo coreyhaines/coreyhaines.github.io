@@ -62,3 +62,4 @@ As I mentioned above, though, I consider driver-navigator a more intermediate st
 
 Pairing is a fantastic way to develop software. I've written some of my best code, my best systems, when most of it was written with two people's hands on a keyboard together. At the end of a coderetreat, it is very common to get the feedback from first-timers that they didn't expect working in a pair to be so productive. Pair-programming is listed frequently in the closing questions as both surprising and what they will take with them going forward.
 
+Thanks to <a href="https://twitter.com/fablednet">Sarah Gray</a> for proof-reading this post.

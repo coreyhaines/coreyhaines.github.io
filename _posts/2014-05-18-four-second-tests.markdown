@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Test Speed Can Be Important
+title: Four-Second Test Runs - Test Speed Is Important
 ---
 
 ## Qualities of Tests
@@ -23,9 +23,14 @@ Note: This specific model doesn't need 52 cases and 111 assertions. To keep a li
 
 To show 4 seconds, I had to alter my tests to add a sleep to increase the time for the tests (this is why there is a pause at the end). Here is what 4 seconds looks like.
 
+<iframe width="420" height="315" src="//www.youtube.com/embed/rQOsJEzxuZo" frameborder="0" allowfullscreen></iframe>
+
 This is 2.5 seconds. When running without Quicktime running, it generally is around 2 seconds. This is still a bit slow, though.
+<iframe width="420" height="315" src="//www.youtube.com/embed/00OSP-5LrVs" frameborder="0" allowfullscreen></iframe>
 
 Now, even the 2 or 2.5 second run is quite a pause. For your actual domain code, you don't actually need to load up your database. By writing your domain code in pure Ruby, without a dependency on the Rails framework, the flow looks something like this.
+
+<iframe width="420" height="315" src="//www.youtube.com/embed/HxDoJQ7301Y" frameborder="0" allowfullscreen></iframe>
 
 Now, this is even a bit slower because Quicktime adds a bit when doing recording on my laptop.
 

@@ -52,7 +52,7 @@ Now let's look again at the feedback cycle I have when I am working on business 
 
 <iframe width="420" height="315" src="//www.youtube.com/embed/vV0GEE7pd1g" frameborder="0" allowfullscreen></iframe>
 
-The four-second test run is obviously okay for some people, but I prefer to keep my flow uninterrupted and my feedback loop very small. As with everything, the choice is yours and highly dependent on your style.
+The four-second test run is obviously okay for some people, but I prefer to keep my flow uninterrupted and my feedback loop very small. And, the changes I'm making add very little complexity, and in fact emphasize when I'm doing the wrong thing from a design perspective. As with everything, the choice is yours and highly dependent on your style.
 
 The original code for this can be seen at <a href="https://github.com/coreyhaines/bawch">my video series' repository</a>.
 

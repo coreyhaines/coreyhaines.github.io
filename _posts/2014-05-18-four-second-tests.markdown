@@ -28,11 +28,13 @@ To show 4 seconds, I had to alter my tests to add a sleep to increase the time f
 For me, this pause is too much, especially when running it frequently. For every change I make, I like to run the tests to make sure I haven't broken any previous functionality. Waiting 4 seconds each time, with this sort of pause, can be frustrating. DHH seems to imply that this speed is plenty fast as a trade-off for the increased complexity any sort of isolation brings. Let's see if we can do better.
 
 Let's take a look at using my very simple <a href="/posts/active-record-spec-helper/">"only load active record" technique</a>, which doesn't require any changes to your design, and, thus, no added complexity. In fact, it can help minimize complexity by highlighting unnecessary or too many dependencies.
+
 <iframe width="420" height="315" src="//www.youtube.com/embed/00OSP-5LrVs" frameborder="0" allowfullscreen></iframe>
 
 When recording with Quicktime, it adds half a second to the run, so it actually takes around 2 seconds. This is still a bit slow, though. For me, even the 2 or 2.5 second run is still quite a pause when I'm working. When in a good process that includes writing unit tests, it can definitely pull me out of my flow.
 
 By doing very small changes to my design, though, I can improve this. When writing my domain code, it generally doesn't actually need to load up my database. By writing my business logic in pure Ruby, without a dependency on the Rails framework, the flow looks something like this.
+
 <iframe width="420" height="315" src="//www.youtube.com/embed/vV0GEE7pd1g" frameborder="0" allowfullscreen></iframe>
 
 <aside class='callout highlight'>
@@ -42,9 +44,11 @@ By emphasizing the separation of concerns between my business logic and the unde
 
 
 Whether you write your tests first or your tests last, the feedback time is important. Let's look again at the "Plenty fast for a great feedback cycle!" run.
+
 <iframe width="420" height="315" src="//www.youtube.com/embed/rQOsJEzxuZo" frameborder="0" allowfullscreen></iframe>
 
 Now let's look again at the feedback cycle I have when I am working on business logic.
+
 <iframe width="420" height="315" src="//www.youtube.com/embed/vV0GEE7pd1g" frameborder="0" allowfullscreen></iframe>
 
 The four-second test run is obviously okay for some people, but I prefer to keep my flow uninterrupted and my feedback loop very small. As with everything, the choice is yours and highly dependent on your style.

@@ -79,3 +79,5 @@ end
 This is another way of slowly building up the API, especially the beginnings of the #set_living_at behavior.
 
 Focusing on the symmetry between a good test name and the code under tests is a subtle design technique. It is definitely not the only design influence that our tests can have on our code, but it can be an important one. So, next time you are flying through your tdd cycle, take a moment to make sure that you are actually testing what you say you are testing.
+
+Thanks to <a href="https://twitter.com/fablednet">Sarah Gray</a> for proof-reading this post.

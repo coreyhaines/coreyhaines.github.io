@@ -244,3 +244,4 @@ If we have a problem with the fully-composed pipeline, we can more easily debug 
 Each individual piece can be tested in isolation. Not just testing for verification, though, but also for clarity. The set of examples we write while isolation testing can give valuable feedback on the purpose of the unit.
 
 
+Thanks to <a href="https://twitter.com/fablednet">Sarah Gray</a> for proof-reading this post.

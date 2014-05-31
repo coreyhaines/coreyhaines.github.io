@@ -50,3 +50,5 @@ Still not convinced? Here are some more happy readers!!
 I'm super excited about this book, so please check out *[Understanding the 4 Rules of Simple Design](https://leanpub.com/4rulesofsimpledesign)*.
 
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+Thanks to <a href="https://twitter.com/fablednet">Sarah Gray</a> for proof-reading this post.

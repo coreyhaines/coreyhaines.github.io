@@ -122,4 +122,5 @@ Rampant coupling and complex dependency graphs are one of the most significant c
 Now, I'm not here to say don't use the auto-loader; it can be handy. Instead, pay attention to the number of dependencies you have. One way would be to list your dependencies as comments at the top of your model files. Of course, comments very rapidly rot. Instead, rely on your executable documention, your examples. By forcing yourself to load your dependencies when testing, you have a living list of dependencies. When this starts to get too large, listen to the feedback and do some refactoring. After all, TDD is about listening to the feedback your tests provide. If you mask this feedback, you lose a huge benefit.
 
 
+Thanks to <a href="https://twitter.com/fablednet">Sarah Gray</a> for proof-reading this post.
 

@@ -43,7 +43,7 @@ Lately, I've been learning more about and considering people's boundaries, priva
 Does Bob really want his personal email given to Annie?
 </aside>
 
-Now, don't get me wrong, I didn't think this was necessarily the end of the world. On the surface, it doesn't even seem like that big of a deal. But, even though Bob was a well-known developer and it was public that he was looking, he probably was getting a lot of offers and might have valued his choice of whom he talked to about potential jobs. He might not want to be receiving email from all the people *I think* might be interested in hiring him.
+Now, don't get me wrong, I didn't think this was necessarily the end of the world. On the surface, it doesn't even seem like that big of a deal. But, even though Bob was a well-known developer and it was public that he was looking, he probably was getting a lot of offers and might have valued his choice of whom he talked to about potential jobs. He might not want to be receiving email from all the people I think might be interested in hiring him.
 
 With a bit of thought, I came up with an idea on how to do this in the future while still maintaining the introducee's privacy.
 
@@ -54,9 +54,9 @@ Put the introducee in BCC and the person who wants the introduction on the To li
 So, in the future, I'll be continuing to do email introductions whenever I can. But, instead of putting both parties on the To line, I'll use the following rule.
 
 <aside class='callout highlight'>
-* Annie: Hey, can you introduce me to Bob?
+> Annie: Hey, can you introduce me to Bob?
 
-* Me: Sure, I'll send an email introduction.
+> Me: Sure, I'll send an email introduction.
 
 To: Annie's email
 

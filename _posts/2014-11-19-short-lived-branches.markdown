@@ -3,9 +3,11 @@ layout: post
 title: Short-lived Branches
 ---
 
-tl;dr
+<aside class='callout highlight'>
+<header>tl;dr</header>
 
 What if a branch had only a day to live? What if you had a single day to either complete your feature or start over the next day? How would this impact your coding? Sometimes you would work hard to cut features in small-enough sizes. For "longer" features that take n days, you would have n-1 days to use as drafts for it, then a day to complete the final version.
+</aside>
 
 tl;sr (too long; still read)
 
@@ -23,7 +25,7 @@ After exploring the requirements and possible designs, you create a branch and s
 This idea originally started as a thought experiment based on talks with Michael Feathers and others about code lifetime and churn, combined with my experiences running coderetreat workshops, where we actively delete code and start afresh. Over time, though, my thoughts have become more concrete, and I think this could have some great outcomes on our code.
 </aside>
 
-So, what if branches had only a day to live, disappearing each and every day?
+## So, what if branches had only a day to live, disappearing each and every day?
 
 I'm going to write up some more thoughts about the effect, but the core idea is that you could accomplish a task in the same amount of time with better code quality.
 

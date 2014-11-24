@@ -34,3 +34,6 @@ If you have a task that you think is going to take you 4 days to complete, you c
 At first, this seems like a strange, even nonworkable, idea; it immediately feels easy to come up with situations where this absolutely wouldn't work. For each of those examples that come to mind, I would encourage you to take some time really thinking about it before you form an opinion. If you didn't have a choice, how would your code and habits change?
 
 I'd like to write more about this idea, exploring the benefits (and dangers), but I wanted to get this out in the world.
+
+
+To try this, I'd recommend picking a 4-day, non-mission-critical feature and delete the branch every night at the end of the workday. It will be scary the first two days, but I bet you will be excited and happy on the third day. If you do, please let me know either <a href="http://www.twitter.com/coreyhaines">on twitter</a> or <a href="mailto:coreyhaines+slb@gmail.com">email</a>.

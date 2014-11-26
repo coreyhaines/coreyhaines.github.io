@@ -160,7 +160,7 @@ a {
     font-size: 17px;
     color: #777; }
   .content .callout {
-    padding: 10px; 
+    padding: 10px;
     font-size: 17px;
     line-height: 1.5em; }
   .content .aside {
@@ -219,3 +219,16 @@ a {
     font-weight: bold; }
   .content .talk-design .color .white {
     color: #fff; }
+  .content .comments {
+    margin-top: 20px;
+    padding: 5px 10px;
+    border: 1px solid black;
+  }
+  .content .comments textarea {
+    width: 80%;
+  }
+  .content .comments footer {
+    width: 100%;
+    font-size: .5em;
+    text-align: right;
+  }

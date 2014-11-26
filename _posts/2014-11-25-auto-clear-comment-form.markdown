@@ -1,6 +1,6 @@
 ---
 layout: post
-title: No-comment-comment sections
+title: The best comment section
 ---
 
 <aside class='callout highlight'>

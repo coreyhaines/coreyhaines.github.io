@@ -20,7 +20,7 @@ Sometimes, though, people read something and really want to respond. They have s
     </div>
     <div>
       <label>Now that you've gotten that off your chest, feel free to click the button below.</label><br />
-      <input type='reset' value='Clear form'></input>
+      <input type='reset' value="Click here to erase what you've written"></input>
     </div>
   </form>
   <footer>Powered by Don't Read the Comments</footer>

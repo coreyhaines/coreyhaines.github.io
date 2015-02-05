@@ -23,7 +23,7 @@ But, as with all good things, even this must come to an end.
 
 In December, I was introduced to [Jennifer Brandel](https://www.linkedin.com/in/jennbrandel), of WBEZ's wildly successful [Curious City](http://curiouscity.wbez.org/) radio show/podcast. She was in the process of branching out and expanding the Curious City format to other stations and was looking for development help. Jenn's background, in radio and media, is extensive and impressive; it was exciting to meet someone deeply involved in a domain that I've loved from the outside for so long. Plus, she turned out to be a pretty awesome person all around.
 
-After a lot of emails and some great conversations, we decided that it made sense for me to join her team on this venture. I'm thrilled to have this opportunity. I'll be helping build the platform for other stations to use, and Jenn and I will be working together to build a business around this awesome idea, called Curious Nation.
+After a lot of emails and some great conversations, we decided that it made sense for me to join her team on this venture. I'm thrilled to have this opportunity. I'll be helping build the platform for other stations to use, and Jenn and I will be working together to build a business around this awesome idea, called [Curious Nation](http://curiousnation.org/).
 
 ## What is Curious Nation
 

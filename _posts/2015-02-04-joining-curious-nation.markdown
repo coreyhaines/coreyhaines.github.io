@@ -11,15 +11,18 @@ Last October, after a year and a half with Wavetable Labs, including the purchas
 
 This isn't the first time I've taken an extended leave from employment. And, knowing my life, it won't be my last. I like periodically taking time to focus on non-work-related projects. For example, during this sabbatical, I spent my time exploring a lot of non-computer stuff alongside the technical:
 
-* took a painting class;
+* took a <a href="/images/painting-of-zak.jpg" target="_blank">painting class</a>;
 * started piano lessons;
 * spent two weeks substitute teaching at DevBootcamp (DBC);
 * began a book on the Lambda Calculus;
 * wrote the first version of [Lightning Vote](http://lightningvote.com/), with [Aaron Kalin](https://twitter.com/martinisoft) and some DBC alumni: [Shreya Patel](https://twitter.com/shrey_317), [Gale Van Rossem](https://twitter.com/galeforcevr) and [Ryan Milstead](https://twitter.com/ryanmilstead);
 * did some epic walking (walked over a million steps for a total of 500 miles over the four months);
-* and got TWO NEW CATS!!!!!!
+* and got TWO NEW CATS: <a href="/images/squeaks.jpg" target="_blank">Squeaks</a> and <a href="/images/pistachio.jpg" target="_blank">Pistachio</a>!!!!!!
 
-But, as with all good things, even this must come to an end.
+<aside class='callout highlight'>Fun Cat Fact: Squeaks' full name is "'You can do it, Squeaks!' the story of little Kerri Strug, by Corey Haines"
+</aside>
+
+But, as with all good things, even an awesome sabbatical must come to an end.
 
 In December, I was introduced to [Jennifer Brandel](https://www.linkedin.com/in/jennbrandel), of WBEZ's wildly successful [Curious City](http://curiouscity.wbez.org/) radio show/podcast. She was in the process of branching out and expanding the Curious City format to other stations and was looking for development help. Jenn's background, in radio and media, is extensive and impressive; it was exciting to meet someone deeply involved in a domain that I've loved from the outside for so long. Plus, she turned out to be a pretty awesome person all around.
 

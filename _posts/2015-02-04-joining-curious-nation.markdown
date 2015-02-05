@@ -14,7 +14,7 @@ This isn't the first time I've taken an extended leave from employment. And, kno
 * took a <a href="/images/painting-of-zak.jpg" target="_blank">painting class</a>;
 * started piano lessons;
 * spent two weeks substitute teaching at DevBootcamp (DBC);
-* began a book on the Lambda Calculus;
+* began writing a book called *Explorations in the Lambda Calculus*;
 * wrote the first version of [Lightning Vote](http://lightningvote.com/), with [Aaron Kalin](https://twitter.com/martinisoft) and some DBC alumni: [Shreya Patel](https://twitter.com/shrey_317), [Gale Van Rossem](https://twitter.com/galeforcevr) and [Ryan Milstead](https://twitter.com/ryanmilstead);
 * did some epic walking (walked over a million steps for a total of 500 miles over the four months);
 * and got TWO NEW CATS: <a href="/images/squeaks.jpg" target="_blank">Squeaks</a> and <a href="/images/pistachio.jpg" target="_blank">Pistachio</a>!!!!!!

@@ -162,7 +162,8 @@ a {
   .content .callout {
     padding: 10px;
     font-size: 17px;
-    line-height: 1.5em; }
+    line-height: 1.5em;
+    margin-bottom: 20px; }
   .content .aside {
     background-color: #eeeeee;
     padding: 14px;

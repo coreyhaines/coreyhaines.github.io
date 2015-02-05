@@ -22,7 +22,7 @@ This isn't the first time I've taken an extended leave from employment. And, kno
 <aside class='callout highlight'>Fun Cat Fact: Squeaks' full name is "'You can do it, Squeaks!' the story of little Kerri Strug, by Corey Haines"
 </aside>
 
-But, as with all good things, even an awesome sabbatical must come to an end.
+But, as with all good things, even an awesome sabbatical must come to an end, making way for an even more awesome thing.
 
 In December, I was introduced to [Jennifer Brandel](https://www.linkedin.com/in/jennbrandel), of WBEZ's wildly successful [Curious City](http://curiouscity.wbez.org/) radio show/podcast. She was in the process of branching out and expanding the Curious City format to other stations and was looking for development help. Jenn's background, in radio and media, is extensive and impressive; it was exciting to meet someone deeply involved in a domain that I've loved from the outside for so long. Plus, she turned out to be a pretty awesome person all around.
 

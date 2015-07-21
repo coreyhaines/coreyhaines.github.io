@@ -1,6 +1,6 @@
 ---
 layout: post
-title: I'm joining Curious Nation
+title: I'm joining Hearken
 ---
 
 ## Every sabbatical must come to an end
@@ -26,18 +26,18 @@ But, as with all good things, even an awesome sabbatical must come to an end, ma
 
 In December, I was introduced to [Jennifer Brandel](https://www.linkedin.com/in/jennbrandel), of WBEZ's wildly successful [Curious City](http://curiouscity.wbez.org/) radio show/podcast. She was in the process of branching out and expanding the Curious City format to other stations and was looking for development help. Jenn's background, in radio and media, is extensive and impressive; it was exciting to meet someone deeply involved in a domain that I've loved from the outside for so long. Plus, she turned out to be a pretty awesome person all around.
 
-After a lot of emails and some great conversations, we decided that it made sense for me to join her team on this venture. I'm thrilled to have this opportunity. I'll be helping build the platform for other stations to use, and Jenn and I will be working together to build a business around this awesome idea, called [Curious Nation](http://curiousnation.org/).
+After a lot of emails and some great conversations, we decided that it made sense for me to join her team on this venture. I'm thrilled to have this opportunity. I'll be helping build the platform for other stations to use, and Jenn and I will be working together to build a business around this awesome idea, called [Hearken](http://wearehearken.com/).
 
-## What is Curious Nation
+## What is Hearken
 
-Curious Nation is a model for helping journalists better engage with their audience, by supporting participation earlier in the editorial process. Historically, journalists haven't had a great way to find out what stories people really wanted to hear. Finding a story often meant seeing what other journalists were reporting on, looking at what events were happening in the world, or even just copying press releases. This works, but we now have the technology to add a more audience-centric and audience-relevant model to the editorial process; and this is what Jenn did a couple years ago with Curious City. Over time, other stations created shows based on this idea; unfortunately, each time a show is created, it needs to be built from scratch. Wouldn't it be great if stations had a way to jumpstart the creation of these shows? This is what we are solving with Curious Nation.
+Hearken is a model for helping journalists better engage with their audience, by supporting participation earlier in the editorial process. Historically, journalists haven't had a great way to find out what stories people really wanted to hear. Finding a story often meant seeing what other journalists were reporting on, looking at what events were happening in the world, or even just copying press releases. This works, but we now have the technology to add a more audience-centric and audience-relevant model to the editorial process; and this is what Jenn did a couple years ago with Curious City. Over time, other stations created shows based on this idea; unfortunately, each time a show is created, it needs to be built from scratch. Wouldn't it be great if stations had a way to jumpstart the creation of these shows? This is what we are solving with Hearken.
 
-Curious Nation consists of two parts: a technology platform and expert content-creation guidance. It enables journalists, editors and stations to listen more closely to their audience via a voting model based on a simple question: "What are you curious about?" Members of the community submit topics, then vote on what to report. The newsroom can build stories around what questions and interests people have, in addition to the usual "beat-oriented" story choices.
+Hearken consists of two parts: a technology platform and expert content-creation guidance. It enables journalists, editors and stations to listen more closely to their audience via a voting model based on a simple question: "What are you curious about?" Members of the community submit topics, then vote on what to report. The newsroom can build stories around what questions and interests people have, in addition to the usual "beat-oriented" story choices.
 
 In a way, you can think of it as "audience engagement as a service."
 
 ## What to expect in the near future
 
-Over the next few months, we'll be finishing up the platform, bringing on some stations for feedback and assumption-testing. During this time, I'll be writing more regularly on the Curious Nation blog about the technical platform work, so you can expect similar content to what you read here. And, since it will be part of my job, the posts will be much more frequent. :)
+Over the next few months, we'll be finishing up the platform, bringing on some stations for feedback and assumption-testing. During this time, I'll be writing more regularly on the Hearken blog about the technical platform work, so you can expect similar content to what you read here. And, since it will be part of my job, the posts will be much more frequent. :)
 
-I'm super duper excited to start this next phase of my journey. Until next time, please follow the [Curious Nation twitter account](https://twitter.com/curious_nation) to keep up to date.
+I'm super duper excited to start this next phase of my journey. Until next time, please follow the [Hearken twitter account](https://twitter.com/wearehearken) to keep up to date.

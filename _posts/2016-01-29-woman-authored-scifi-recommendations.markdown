@@ -27,4 +27,6 @@ I spent about the last half of 2015 reading only woman-authored scifi. I've had 
 
 
 
-And if you you are wondering, I read the first two books of the Imperial Radch series by Ann Leckie and had trouble getting into them. Might return later, but there are so many ones that I do get into out there.
+And if you are wondering, I read the first two books of the Imperial Radch series by Ann Leckie and had trouble getting into them. Might return later, but there are so many ones that I do get into out there.
+
+Wondering why there is no Ursula K. LeGuin (or your favorite author)? These are highlights of the books I've read over the latter part of 2015. And most of these were unknown to me before.

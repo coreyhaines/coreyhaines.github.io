@@ -22,6 +22,8 @@ title: "Not Found"
 function draw() {
   const size = getSize();
   const canvas = document.getElementById('canvas');
+  canvas.left = 500;
+  canvas.top = 200;
   canvas.width = size;
   canvas.height = size;
   if (canvas.getContext) {
